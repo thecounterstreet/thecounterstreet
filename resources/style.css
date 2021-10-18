@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body{
+
+}
+
+nav{
+    background: #efe7d6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; 
+  width: 100%; 
+}
+nav>img{
+    padding-left: 4rem;
+    height: 60px;
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+    justify-content: space-between;
+    
+}
+
+.nav-list a{
+    color: #000;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.nav-list a:hover {
+    background: #796a5a;
+    border-radius: 4px;
+    color: black;
+  }
+
+
+.banner{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+    background: #796a5a;
+}
+
+.bnInfo{
+    color: #efe7d6;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bnInfo h2{
+    margin-bottom: 20px;
+}
+.bnInfo b{
+    margin-bottom: 20px;
+}
+.bnInfo button{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.contact{
+    display: flex;
+    color: #efe7d6;
+    background: #796a5a;
+    margin-top: 30px;
+}
+
+#details{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-left: 40px;
+    padding-right: 40px ;
+    font-size: 18px;
+}
+
+
+.f2{
+    flex: 1;
+    padding: 1em;
+}
+
+.bt1{
+    
+    margin-top: 40px;
+    background: #455A64;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.bt1 a{
+    text-decoration: none;
+}
+
+a { 
+    text-decoration: none; 
+    color: white; 
+   }
+
+.bt1 img{
+    width: 20px;
+}
+
+
+.bt2{
+    
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#area{
+    text-align: left;
+    margin: 40px 0 60px 0;
+}
+
+.social{
+    display: flex;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-left: 40px;
+    padding-right: 40px ;
+    justify-content: center;
+    align-items: center;
+    background: #efe7d6;
+}
+
+.social img{
+    width: 24px;
+}
+
+.social a{
+    padding-right: 10px ;
+}
+
+/* bx */
+
+.history{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #796a5a;
+    min-height: 300px;
+    color: #efe7d6;
+}
+
+.historyhash{
+    font-weight: bolder;
+    align-items: center;
+    background: #796a5a;
+    /* background: red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding: 30px 0 0 0;
+}
+
+.bx{
+    padding: 20px;
+    /* margin: 20px; */
+    width: auto;
+    text-align: center;
+    
+}
+
+.bx>h3{
+    margin-bottom: 1.5rem;
+}
+
+
+
+.imgtxt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px 30px 30px;
+    background: #e2ddd8;
+    min-height: 300px;
+    margin-bottom: 30px;
+    
+}
+
+.imgtxthash{
+    font-weight: bolder;
+    align-items: center;
+    background: #e2ddd8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding: 30px 0 0 0;
+}
+
+
+/* .itw{
+    width: 400px;
+} */
+
+.imgtxt img{
+    height: 320px;
+    width: auto;
+}
+
+
+.reviewbox{
+    /* background-image: url("./ReviewBG.png"); */
+    background-size: cover;
+    min-height: 450px;
+    padding: 30px;
+}
+
+.title{
+    
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.review{
+    flex-wrap: wrap;
+}
+.review > div{
+    flex: 40%;
+}
+
+.rev{
+    background: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.black-tint {
+    background-image: 
+      linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+      url('./ReviewBG.png');
+  }
+
+
+.verticles{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #efe7d6;
+}
+.verticles ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+
+.verticles a{
+
+    color: black;
+}
+
+
+
+
+
+/* miscellaneous start */
+
+.box{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mt{
+    margin-top: 30px;
+}
+
+.pd{
+    padding: 30px;
+}
+
+.fl{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.borRi{
+    border-right: 1px solid grey;
+}
+
+/* miscellaneous end */
+
